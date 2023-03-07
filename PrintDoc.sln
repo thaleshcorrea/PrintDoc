@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDoc", "PrintDoc\PrintDoc.csproj", "{4752A39B-3FAD-49DB-9A60-5932464750E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4752A39B-3FAD-49DB-9A60-5932464750E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4752A39B-3FAD-49DB-9A60-5932464750E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4752A39B-3FAD-49DB-9A60-5932464750E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4752A39B-3FAD-49DB-9A60-5932464750E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
