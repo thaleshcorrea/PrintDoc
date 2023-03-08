@@ -31,62 +31,125 @@ namespace RioSOft_PrintDoc
         *                                                   *
         * ***************************************************
         */
-        private int[] MyCoulums_Width = { 48, 48, 31, 151};
-        private StringAlignment[] Vertical_Ali = { StringAlignment.Center, StringAlignment.Center, StringAlignment.Center, StringAlignment.Center};
-        private StringAlignment[] Horezontal_Ali = { StringAlignment.Center, StringAlignment.Center,StringAlignment.Center, StringAlignment.Far};
+        private int[] MyCoulums_Width = { 48, 48, 31, 151 };
+        private StringAlignment[] Vertical_Ali = { StringAlignment.Center, StringAlignment.Center, StringAlignment.Center, StringAlignment.Center };
+        private StringAlignment[] Horezontal_Ali = { StringAlignment.Center, StringAlignment.Center, StringAlignment.Center, StringAlignment.Far };
         private void Form1_Load(object sender, EventArgs e)
         {
-            dataGridView1.Rows.Add("7500", "2500", "3","Produto 001");
-            dataGridView1.Rows.Add( "3000", "1000", "3","Produto 002");
-            dataGridView1.Rows.Add("5000", "500", "10","Produto 003");
-            dataGridView1.Rows.Add( "500", "500", "1","Produto 004");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add( "1500", "1500", "1","Produto 005");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add( "6000", "2000", "3","Produto 006");
             dataGridView1.Rows.Add("7500", "2500", "3", "Produto 001");
-            dataGridView1.Rows.Add("3000", "1000", "3", "Produto 002");
-            dataGridView1.Rows.Add("5000", "500", "10", "Produto 003");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 001");
-            dataGridView1.Rows.Add("3000", "1000", "3", "Produto 002");
-            dataGridView1.Rows.Add("5000", "500", "10", "Produto 003");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("6000", "2000", "3", "Produto 006");
-            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 001");
-            dataGridView1.Rows.Add("3000", "1000", "3", "Produto 002");
-            dataGridView1.Rows.Add("5000", "500", "10", "Produto 003");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 001");
-            dataGridView1.Rows.Add("3000", "1000", "3", "Produto 002");
-            dataGridView1.Rows.Add("5000", "500", "10", "Produto 003");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("1500", "1500", "1", "Produto 005");
-            dataGridView1.Rows.Add("6000", "2000", "3", "Produto 006");
-            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 001");
-            dataGridView1.Rows.Add("3000", "1000", "3", "Produto 002");
-            dataGridView1.Rows.Add("5000", "500", "10", "Produto 003");
-            dataGridView1.Rows.Add("500", "500", "1", "Produto 004");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 002");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 003");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 004");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 005");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 006");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 007");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 008");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 009");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 010");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 011");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 012");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 013");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 014");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 015");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 016");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 017");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 018");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 019");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 020");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 021");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 022");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 023");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 024");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 025");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 026");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 027");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 028");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 029");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 030");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 031");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 032");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 033");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 034");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 035");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 036");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 037");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 038");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 039");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 040");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 041");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 042");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 043");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 044");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 045");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 046");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 047");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 048");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 049");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 050");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 051");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 052");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 053");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 054");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 055");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 056");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 057");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 058");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 059");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 060");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 061");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 062");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 063");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 064");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 065");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 066");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 067");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 068");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 069");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 070");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 071");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 072");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 073");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 074");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 075");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 076");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 077");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 078");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 079");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 080");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 081");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 082");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 083");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 084");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 085");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 086");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 087");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 088");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 089");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 090");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 091");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 092");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 093");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 094");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 095");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 096");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 097");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 098");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 099");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 100");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 101");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 102");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 103");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 104");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 105");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 106");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 107");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 108");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 109");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 110");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 111");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 112");
+            dataGridView1.Rows.Add("7500", "2500", "3", "Produto 113");
+
             Printer();
             comboBox1.Text = Properties.Settings.Default.Printer;
         }
@@ -108,56 +171,33 @@ namespace RioSOft_PrintDoc
         SizeF Size_MyColums;
         Rectangle MyBox_Rectangle;
         Rectangle MyTest_Rectangle;
-        string Auther = "By:Ibrahim Sherwani (RIOSOFT)";
+        string Auther = "By: Trolles Maiado";
         int niopp = 0;
         int numm = 0;
-        string cashier = "Caixa";
-        string bill = "Conta";
-        string datee = "Data";
+        string cashier = "Caixa: ";
+        string bill = "Conta: ";
+        string datee = "Data: ";
         DateTime dat = new DateTime();
-        
+
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
             Graphics MyGraphics = e.Graphics;
             Font MyFont0 = new Font("Arial", 12, FontStyle.Bold);
-            String MyLine = "____________________________________";
-            int Horezontal_X = 0;
-            int vertical_Y = 0;
             int My_newline = 0;
-            My_newline += 0;
-            My_newline = My_newline + 20;
             var g = e.Graphics;
-            My_newline = My_newline + 60;
             SolidBrush My_Color = new SolidBrush(Color.Black);
-            var MyStringFormat2 = new StringFormat(StringFormatFlags.DirectionRightToLeft);
-            MyGraphics.DrawString(label1.Text.ToUpper(), new Font("Arial", 23, FontStyle.Bold), My_Color, 15, vertical_Y + 12);
-            My_newline = My_newline + 60;
-            MyGraphics.DrawString(cashier + textBox1.Text, MyFont0, My_Color, 205, vertical_Y + My_newline, MyStringFormat2);
-            My_newline = My_newline + 25;
-            MyGraphics.DrawString(bill + textBox2.Text, MyFont0, My_Color, 85, vertical_Y + My_newline);
-            My_newline = My_newline + 25;
-            g.DrawString(datee + DateTime.Now.ToShortDateString(), MyFont0, My_Color, 75, vertical_Y + My_newline);
-            My_newline = My_newline + 10;
-            MyGraphics.DrawString(MyLine, new Font("Arial", 10, FontStyle.Bold), My_Color, 0, vertical_Y + My_newline);
-            My_newline = My_newline + 25;
-            MyGraphics.DrawString("Descrição", new Font("Rudaw", 10, FontStyle.Bold), My_Color, 280, vertical_Y + My_newline,MyStringFormat2);
-            MyGraphics.DrawString("Qtde‌", new Font("Rudaw", 8, FontStyle.Bold), My_Color, Horezontal_X + 90, vertical_Y + My_newline);
-            MyGraphics.DrawString("Preço", new Font("Rudaw", 8, FontStyle.Bold), My_Color, Horezontal_X + 58, vertical_Y + My_newline);
-            MyGraphics.DrawString("Total", new Font("Rudaw", 8, FontStyle.Bold), My_Color, Horezontal_X + 2, vertical_Y + My_newline);
-            My_newline = My_newline + 20;
-
 
             //----------------------------------------------myDataGrid------------------------------------
             StringFormat MyStringFormat = new StringFormat();
             Font MyFont1 = new Font("Rudaw", 7);
             const int Side_margin = 4;
             int y = My_newline;
-            for (int j = numm; j < dataGridView1.Rows.Count ; j++)
+            for (int j = numm; j < dataGridView1.Rows.Count; j++)
             {
                 int MyMax_height = 0;
                 niopp++;
 
-                if (niopp <= 26)
+                if (niopp <= 55)
                 {
                     numm++;
                     if (numm <= dataGridView1.Rows.Count)
@@ -201,26 +241,6 @@ namespace RioSOft_PrintDoc
                 y += MyMax_height;
             }
             //----------------------------------------------myDataGrid------------------------------------
-            My_newline = y + 10;
-            textBox5.Text = String.Format("{0:n0}", double.Parse(textBox5.Text));
-            textBox6.Text = String.Format("{0:n0}", double.Parse(textBox6.Text));
-            MyGraphics.DrawString(textBox5.Text, MyFont0, My_Color, 0, vertical_Y + My_newline);
-            MyGraphics.DrawString("كۆی گشتی:", MyFont0, My_Color, 280, vertical_Y + My_newline, MyStringFormat2);
-            My_newline = My_newline + 18;
-            MyGraphics.DrawString("***************************************************", new Font("Arial", 10), My_Color, 0, vertical_Y + My_newline);
-            My_newline = My_newline + 20;
-            MyGraphics.DrawString(textBox6.Text, MyFont0, My_Color, 2, vertical_Y + My_newline);
-            MyGraphics.DrawString("داشكاندن:", MyFont0, My_Color, 280, vertical_Y + My_newline, MyStringFormat2);
-            My_newline = My_newline + 18;
-            MyGraphics.DrawString("***************************************************", new Font("Arial", 10), My_Color, 0, vertical_Y + My_newline);
-            My_newline = My_newline + 30;
-            MyGraphics.DrawString("*" + textBox2.Text + "*", new Font("C39P24DlTt", 25), My_Color, 35, vertical_Y + My_newline);
-            My_newline = My_newline + 35;
-            MyGraphics.DrawString(textBox2.Text, new Font("Arial", 8), My_Color, 115, vertical_Y + My_newline);
-            My_newline = My_newline + 40;
-            MyGraphics.DrawString(textBox4.Text, MyFont0, My_Color, 40, vertical_Y + My_newline);
-            My_newline = My_newline + 20;
-            MyGraphics.DrawString(Auther, MyFont0, My_Color, 10, vertical_Y + My_newline);
 
             niopp = 0;
             numm = 0;
@@ -235,7 +255,7 @@ namespace RioSOft_PrintDoc
         private void button2_Click(object sender, EventArgs e)
         {
             printDocument1.PrinterSettings.PrinterName = Properties.Settings.Default.Printer;
-            printDocument1.PrinterSettings.Copies = (short)numericUpDown1.Value ;
+            printDocument1.PrinterSettings.Copies = (short)numericUpDown1.Value;
             PrintController pc = new StandardPrintController();
             printDocument1.PrintController = pc;
             printDocument1.PrintPage += new PrintPageEventHandler(printDocument1_PrintPage);
